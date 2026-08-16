@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01. MaxSumArray/01. MaxSumArray.vcxproj" Id="34174960-662f-4a2e-9d93-273e6dbec042" />
+  <Project Path="02. Shapes/02. Shapes.vcxproj" Id="81282de1-d59a-4199-83ca-a2467cde68dc" />
+  <Project Path="03. IndexedSet/03. IndexedSet.vcxproj" Id="010cf826-4bc2-4bab-b4f1-8a36eb064435" />
+  <Project Path="04. Memory Allocator Reforged/04. Memory Allocator Reforged.vcxproj" Id="be674778-5411-4395-a064-05c700dccab9" />
+</Solution>
