@@ -18,11 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandExecutor.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="Snake.h" />
+    <ClInclude Include="Structs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommandExecutor.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="snakeImplementation.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{801b11e1-e83a-4160-b747-a10e9384c8d3}</ProjectGuid>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectGuid>{fd040518-ee64-47a3-9d9a-80d940dc6cf2}</ProjectGuid>
+    <RootNamespace>My05Snake</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,9 +151,6 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

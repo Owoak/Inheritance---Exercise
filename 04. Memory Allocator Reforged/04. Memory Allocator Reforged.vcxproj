@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="04. Memory Allocator Reforged.cpp" />
+    <ClCompile Include="implementation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
